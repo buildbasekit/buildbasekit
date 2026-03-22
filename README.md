@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/build-base-kit-black-bg-rectangle.jpg" alt="BuildBaseKit Banner" width="100%" />
+</p>
+
 #  BuildBaseKit – Startup Boilerplates for Developers
 
 We accelerate software development by providing **high-quality code boilerplates** for startups and developers.  
