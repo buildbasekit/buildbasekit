@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/build-base-kit-black-bg-rectangle.jpg" alt="BuildBaseKit Banner" width="100%" />
+  <img src="./assets/banner.jpg" alt="BuildBaseKit Banner" width="100%" />
 </p>
 
 #  BuildBaseKit – Startup Boilerplates for Developers
