@@ -2,13 +2,37 @@
   <img src="./assets/banner.jpg" alt="BuildBaseKit Banner" width="100%" />
 </p>
 
-#  BuildBaseKit – Startup Boilerplates for Developers
+# BuildBaseKit – Startup Boilerplates for Developers
 
-We accelerate software development by providing **high-quality code boilerplates** for startups and developers.  
-Our ready-to-use templates serve as a **tested foundation** that can be reused with minimal changes across different projects, eliminating tedious setup work.  
+**Ready-to-use Spring Boot boilerplates to launch faster.**
 
-Currently, we focus on **Spring Boot boilerplates** (both free and premium), covering common needs like REST APIs, file storage, and authentication.  
-Our mission is simple: *skip the repetitive stuff and launch projects faster.* ⚡
+## 🚀 Start Here
+
+👉 Pick a boilerplate and start building in minutes:
+
+- 🔐 **AuthKit-Lite**  
+  Minimal JWT auth (login, signup, RBAC)  
+  → https://github.com/buildbasekit/AuthKit-Lite
+
+- 📁 **FiloraFS-Lite**  
+  File upload & storage API (upload, stream, delete)  
+  → https://github.com/buildbasekit/FiloraFS-Lite
+
+- ⚡ **Basely**  
+  Discord bot starter (commands, moderation, automation)  
+  → https://github.com/buildbasekit/Basely
+
+💡 Need advanced features + full docs?
+
+- 🚀 **FiloraFS-Pro**  
+  Auth + S3 + production-ready architecture  
+  → https://buildbasekit.gumroad.com/l/filorafs-pro-self-hosted-file-storage
+
+
+Build production-ready apps faster using reusable Spring Boot boilerplates that eliminate repetitive setup. 
+
+Focused on Spring Boot boilerplates for REST APIs, file storage, and authentication.
+Skip the repetitive setup and launch faster. ⚡
 
 ---
 
@@ -36,7 +60,8 @@ Each boilerplate template comes packed with essential features and best practice
 
 ## 🌐 Connect With Us
 
-- **Website:** [buildbasekit.com](https://buildbasekit.com) 
+- **Website:** [buildbasekit.com](https://buildbasekit.com)
+- **X:** [buildbasekit](https://x.com/buildbasekit)
 - **Dev.to:** [buildbasekit](https://dev.to/buildbasekit)  
 - **Gumroad:** [buildbasekit.gumroad.com](https://buildbasekit.gumroad.com/)  
 
