@@ -71,7 +71,7 @@ Each boilerplate template comes packed with essential features and best practice
 If you find BuildBaseKit useful:  
 - Star ⭐ this profile  
 - Follow for updates 🔔  
-- Try our free & premium boilerplates on [Gumroad](https://buildbasekit.gumroad.com/)
+- Try our premium boilerplates on [Gumroad](https://buildbasekit.gumroad.com/)
 
 ---
 
