@@ -4,7 +4,7 @@
 
 **Stop rebuilding backend infrastructure.**
 
-BuildBaseKit provides modular, AI-ready Spring Boot boilerplates for **authentication** and **file storage**, with **payment foundations** planned next.
+BuildBaseKit provides modular, AI-ready Spring Boot boilerplates for **authentication**, **file storage**, and **Stripe payments**.
 
 [Website](https://buildbasekit.com/) · [Boilerplates](https://buildbasekit.com/boilerplates/) · [Documentation](https://buildbasekit.com/docs/) · [Resources](https://buildbasekit.com/resources/)
 
@@ -12,14 +12,16 @@ BuildBaseKit provides modular, AI-ready Spring Boot boilerplates for **authentic
 
 ## Spring Boot Boilerplates
 
-| Project | What it provides | Access |
-| --- | --- | --- |
-| [**AuthKit-Lite**](https://github.com/buildbasekit/AuthKit-Lite) | JWT authentication, refresh tokens, RBAC, and optional WebAuthn passkeys | Free · Open Source |
-| [**AuthKit-Pro**](https://buildbasekit.com/boilerplates/authkit-pro/) | Authentication with rotating sessions, account lifecycle workflows, OAuth2/OIDC, passkeys, and passwordless flows | $39 · Pro |
-| [**FiloraFS-Lite**](https://github.com/buildbasekit/FiloraFS-Lite) | Local file upload and storage APIs with API-key access | Free · Open Source |
-| [**FiloraFS-Pro**](https://buildbasekit.com/boilerplates/filora-fs-pro/) | Ownership-aware file APIs with LOCAL and S3-compatible storage | $29 · Pro |
+| Project                                                                       | What it provides                                                                                                         | Access     |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| [**AuthKit-Lite**](https://github.com/buildbasekit/AuthKit-Lite)              | JWT authentication, refresh tokens, RBAC, and optional WebAuthn passkeys                                                 | Free · MIT |
+| [**AuthKit-Pro**](https://buildbasekit.com/boilerplates/authkit-pro/)         | Rotating sessions, account lifecycle workflows, OAuth2/OIDC, passkeys, and passwordless flows                            | $39 · Pro  |
+| [**FiloraFS-Lite**](https://github.com/buildbasekit/FiloraFS-Lite)            | Local file upload and storage APIs with API-key access                                                                   | Free · MIT |
+| [**FiloraFS-Pro**](https://buildbasekit.com/boilerplates/filora-fs-pro/)      | Ownership-aware file APIs with LOCAL and S3-compatible storage                                                           | $29 · Pro  |
+| [**TransactKit-Lite**](https://github.com/buildbasekit/TransactKit-Lite)      | Stripe Checkout, customers, refunds, verified webhooks, and H2/MySQL persistence                                         | Free · MIT |
+| [**TransactKit-Pro**](https://buildbasekit.com/boilerplates/transactkit-pro/) | Stripe payments, subscriptions, refunds, Customer Portal, invoices, Entitlements, metering, and durable webhook handling | $39 · Pro  |
 
-**StripeKit** — Spring Boot payment foundations are coming soon.
+Free boilerplates are released under the **MIT License**. Paid Pro boilerplates use the **BuildBaseKit Commercial License**.
 
 [Compare all boilerplates →](https://buildbasekit.com/boilerplates/)
 
@@ -31,10 +33,10 @@ BuildBaseKit keeps important engineering context close to the code so projects a
 
 Repositories can include:
 
-- `AGENTS.md` — commands, scope, and verification expectations
-- `ARCHITECTURE.md` — responsibilities and design boundaries
-- `AI_RULES.md` — coding constraints for AI-assisted development
-- `AGENT_CONTRIBUTING.md` — contribution workflow
+* `AGENTS.md` — commands, scope, and verification expectations
+* `ARCHITECTURE.md` — responsibilities and design boundaries
+* `AI_RULES.md` — coding constraints for AI-assisted development
+* `AGENT_CONTRIBUTING.md` — contribution workflow
 
 Released foundations use **runnable local defaults**, documented configuration, tests, and browser-based API testing where supported.
 
@@ -44,9 +46,10 @@ Released foundations use **runnable local defaults**, documented configuration, 
 
 ## Open Source
 
-- [**AuthKit-Lite**](https://github.com/buildbasekit/AuthKit-Lite) — Spring Boot authentication boilerplate
-- [**FiloraFS-Lite**](https://github.com/buildbasekit/FiloraFS-Lite) — Spring Boot file-storage boilerplate
-- [**Basely**](https://github.com/buildbasekit/Basely) — Java and Spring Boot Discord bot starter
+* [**AuthKit-Lite**](https://github.com/buildbasekit/AuthKit-Lite) — Spring Boot authentication boilerplate
+* [**FiloraFS-Lite**](https://github.com/buildbasekit/FiloraFS-Lite) — Spring Boot file-storage boilerplate
+* [**TransactKit-Lite**](https://github.com/buildbasekit/TransactKit-Lite) — Spring Boot Stripe payments boilerplate
+* [**Basely**](https://github.com/buildbasekit/Basely) — Java and Spring Boot Discord bot starter
 
 ---
 
